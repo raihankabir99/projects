@@ -1,0 +1,10 @@
+define user ask off topic
+  "What is the capital of France?"
+  "Can you write a python script for me?"
+
+define bot explain off topic
+  "I am designed only to answer questions regarding the job report. Please ask questions related to that topic."
+
+define flow off topic
+  user ask off topic
+  bot explain off topic
