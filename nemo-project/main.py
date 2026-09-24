@@ -2,7 +2,6 @@ import asyncio
 import os
 from nemoguardrails import LLMRails, RailsConfig
 
-# OpenAI API Key পরিবেশের ভ্যারিয়েবলে সেট নিশ্চিত করুন
 config = RailsConfig.from_path("./config")
 app = LLMRails(config)
 
